@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Mobile Style -->
+  <link rel="stylesheet" media="screen and (max-width:480px)" href="./src/styleMobile.css">
+  <!-- Tablet Style -->
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./src/styleTablet.css">
+  <!-- Desktop Style -->
+  <link rel="stylesheet" media="screen and (min-width: 769px)" href="./src/styleDesktop.css">
+  <title>Document</title>
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="./src/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div id="burgerMenu">
+      <div id="menuBtnBurger"></div>
+    </div>
+    <div id="logo">
+      <h1>LOGO</h1>
+    </div>
+    <nav id="menu">
+      <ul id="menuItem">
+        <li>Home</li>
+        <li>Discovery</li>
+        <li>Photos</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <div id="profile">
+      <img src="./pictures/christopher-campbell-28567-unsplash.jpg" alt="">
+    </div>
+  </header>
+  <main>
+    <section id="news">
+      <aside id="worldNews">
+        <div class="imageContainer">
+          <img src="./pictures/Image.jpg" alt="">
+        </div>
+        <div class="textContainer">
+          <h1>WORLD NEWS</h1>
+          <hr>
+          <h2>Amazing places in America to visit</h2>
+          <p>
+            for some reason - this country, this city, this neighborhood, this particular street - is the place you are living a majority of your life in.
+          </p>
+          <button>LEARN MORE</button>
+        </div>
+      </aside>
+      <aside id="moreNews">
+        <h1>
+          MORE NEWS
+        </h1>
+        <div class="newsDetail">
+          <div>
+            <h2>TRAVEL</h2>
+            <h3>Article title</h3>
+            <p class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta commodi unde possimus excepturi deleniti vel?</p>
+            <p class="date">2m ago</p>
+          </div>
+          <div>
+            <h2>TECHNOLOGY</h2>
+            <h3>Article title</h3>
+            <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, saepe!</p>
+            <p class="date">1h ago</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <section id="trending">
+      <h1>TRENDING</h1>
+      <aside>
+        <div class="card">
+          <img src="./pictures/Image2.jpg" alt="">
+          <div class="textContainer">
+            <h2>Dolore magna aliqua</h2>
+            <p class="detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur incidunt sit atque numquam quis dicta dolor molestiae saepe porro autem.</p>
+            <p class="date">2m ago</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./pictures/annie-spratt-216507-unsplash.jpg" alt="">
+          <div class="textContainer">
+            <h2>Morbi eleifend a libero</h2>
+            <p class="detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur incidunt sit atque numquam quis dicta dolor molestiae saepe porro autem.</p>
+            <p class="date">1h ago</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./pictures/carlos-hevia-628890-unsplash.jpg" alt="">
+          <div class="textContainer">
+            <h2>Morbi eleifend a libero</h2>
+            <p class="detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur incidunt sit atque numquam quis dicta dolor molestiae saepe porro autem.</p>
+            <p class="date">3h ago</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <section id="happeningNow">
+      <h1>HAPPENING NOW</h1>
+      <div class="asideContainer">
+        <!-- left side -->
+      <aside id="largeTitle">
+        <div class="card">
+          <img src="./pictures/Image3.jpg" alt="">
+          <div class="textContainer">
+            <h3>CITY</h3>
+            <h2>Lage article title</h2>
+            <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo facere vero earum ratione est in officia at sit doloremque nobis.</p>
+            <p class="date">2m ago</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./pictures/Image4.jpg" alt="">
+          <div class="textContainer">
+            <h3>TRAVEL</h3>
+            <h2>Lage article title</h2>
+            <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo facere vero earum ratione est in officia at sit doloremque nobis.</p>
+            <p class="date">2d ago</p>
+          </div>
+        </div>
+      </aside>
+      <hr>
+      <!-- right side -->
+      <aside id="smallTitle">
+        <div class="card">
+          <img src="./pictures/161975_1024x768.jpg" alt="">
+          <div class="textContainer">
+            <h3>Small title</h3>
+            <p class="date">3h ago by <u>Worldnews</u></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./pictures/roberto-nickson-g-744100-unsplash.jpg" alt="">
+          <div class="textContainer">
+            <h3>Small title</h3>
+            <p class="date">4h ago by <u>Days</u></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./pictures/tom-mussak-108425-unsplash.jpg" alt="">
+          <div class="textContainer">
+            <h3>Small title</h3>
+            <p class="date">3h ago by <u>Monica</u></p>
+          </div>
+        </div>
+      </aside>
+      </div>
+    </section>
+  </main>
+  <!-- start here -->
+  <footer>
+    <aside class="topSide">
+      <div id="footerLogo">
+        <h1>
+          LOGO
+        </h1>
+      </div>
+      <div id="lists">
+        <div class="col1">
+          <ul>
+            <li>Home</li>
+            <li>Discovery</li>
+            <li>Photos</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="col2">
+          <ul>
+            <li>ABOUT</li>
+            <li>HELP</li>
+            <li>TERMS</li>
+            <li>GUDLINES</li>
+          </ul>
+        </div>
+        <div class="col3">
+          <ul>
+            <li>TESTMONIALS</li>
+            <li>ADVERTISE</li>
+            <li>INTEGRATIONS</li>
+            <li>CAREER</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="bottomSide">
+      <div id="contact">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <label for="email">
+          Stay in touch with us for the freshest products
+        </label>
+      </div>
+      <div id="socialMedia">
+        <ul>
+          <li class="instagram">
+            <img src="./pictures/instagram.svg" alt="">
+          </li>
+          <li class="twitter">
+            <img src="./pictures/twitter.svg" alt="">
+          </li>
+          <li class="facebook">
+            <img src="./pictures/facebook.svg" alt="">
+          </li>
+          <li class="network">
+            <img src="./pictures/net.svg" alt="">
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </footer>
+</body>
+</html>
